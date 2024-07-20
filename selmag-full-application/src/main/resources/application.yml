@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/selmag
+    username: postgres
+    password: postgres
+  cache:
+    cache-names: customer/product-categories/by-id
+logging:
+  level:
+    sql: trace
